@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500;900&display=swap');
+
+</style>
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    font-size: 100%;
+    margin: 0px;
+    background-color: #ffffff;
+    color: #0c0216;
+}
+
+h2 {
+    margin: 20px;
+    font-size: 24pt;
+    font-weight: 900;
+    font-family: 'Roboto', sans-serif;
+}
+
+h4 {
+    margin-left: 5px;
+    font-size: 16pt;
+    font-weight: 900;
+    font-family: 'Roboto', sans-serif;
+}
+
+.material-symbols-rounded { font-size: 50px; }
+
+.cabecalho {
+    height: 56px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 15px;
+}
+
+.cabecalho-perfil {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.cabecalho-logo-imagem {
+    height: 40px;
+    outline: white;
+    filter: brightness(130%);
+}
+
+.cabecalho-logo-nome {
+    padding: 0px 0px 0px 20px;
+    font-size: 24px;
+
+}
+
+.cabecalho-navegacao{
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cabecalho-icone {
+    height: 24px;
+    margin: 0px 10px 0px 30px;
+
+}
+
+.cabecalho-texto {
+    margin-left: 20px;
+    font-size: 16pt;
+    font-weight: 900;
+    font-family: 'Roboto', sans-serif;
+}
+
+.navegacao-projetos {
+    font-size: 50px;
+}
+
+button {
+    display: flex;
+    align-items: center;
+    border: none;
+    height: 56px;
+    color: white;
+    border-radius: 5px;
+    background-color: #008337;
+}
+
+.primeira-sessao {
+}
+
+.rodape {
+    height: 56px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
