@@ -1,53 +1,58 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-<head>
+  <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Site em construção">
     <title>Waste Reuse</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@48,400,1,0" />
-</head>
-<body>
-    <header class="cabecalho">
-        <div class="cabecalho-perfil">
-            <img class="cabecalho-logo-imagem" src="imagens\logo.png" alt="foto da logo da startup">
-            <H2 class="cabecalho-logo-nome">Waste Reuse</H2>
-        </div>
-        <nav class="cabecalho-navegacao">
-            <a class="cabecalho-texto">Nosso objetivo</a>
-            <a class="cabecalho-texto">Quem somos</a>
-            <a class="cabecalho-texto">Como nos ajudar</a>
-        </nav>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="#"><i class="fa fa-home"></i></a></li>
+          <li><a href="#"><i class="fa fa-bell"></i></a></li>
+          <li><a href="#"><i class="fa fa-envelope"></i></a></li>
+          <li><a href="#"><i class="fa fa-users"></i></a></li>
+          <li><a href="#"><i class="fa fa-cog"></i></a></li>
+          <li><input type="text" placeholder="Pesquisar"><i class="fa fa-search"></i></li>
+          <li><img src="perfil.jpg" alt="Foto de perfil"></li>
+        </ul>
+      </nav>
     </header>
-
-    <main>    
-        <section class="primeira-sessao" style="background-image: linear-gradient( to Bottom, #5eff49, #60ffdd); height: 500px;">
-            <div style=" 
-                width: 80%px;
-                margin: 20px;
-                padding: 20px;
-                background: rgba( 255, 255, 255, 0.3 );
-                box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
-                backdrop-filter: blur( 9px );
-                -webkit-backdrop-filter: blur( 4px );
-                border-radius: 10px;">
-                <H2 style="color: #100014;">PROJETOS</H2>
-                <button type="button">
-                    <span class="material-symbols-rounded">download</span>
-                    <h4>Baixe o app<h4>
-                </button>
-            </div>
-            
-
-        </section>
-        <section>
-
-        </section>
+    <main>
+      <div class="banner">
+        <h1>Meu banner</h1>
+        <button>Ir para outra página</button>
+      </div>
+      <section class="publicacoes">
+        <h2>Publicações</h2>
+        <div class="card">
+          <img src="imagem1.jpg" alt="Imagem da publicação">
+          <h3>Título da publicação</h3>
+          <p>Texto da publicação</p>
+        </div>
+        <div class="card">
+          <img src="imagem2.jpg" alt="Imagem da publicação">
+          <h3>Título da publicação</h3>
+          <p>Texto da publicação</p>
+        </div>
+      </section>
+      <section class="anuncios">
+        <h2>Anúncios de usuários</h2>
+        <div class="anuncio">
+          <img src="imagem3.jpg" alt="Imagem do anúncio">
+          <h3>Título do anúncio</h3>
+          <p>Descrição do anúncio</p>
+        </div>
+        <div class="anuncio">
+          <img src="imagem4.jpg" alt="Imagem do anúncio">
+          <h3>Título do anúncio</h3>
+          <p>Descrição do anúncio</p>
+        </div>
+      </section>
     </main>
+  </body>
+</html>
 
-    <footer class="rodape">
-        <h3>Waste Reuse Por uma causa nobre</h3>
-    </footer>
-</body>
 </html>
